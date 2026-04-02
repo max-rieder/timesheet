@@ -31,3 +31,6 @@ bin/
 target
 .idea
 *.iml
+dependency-reduced-pom.xml
+*.pdf
+*.Zone.Identifier
