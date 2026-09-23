@@ -34,3 +34,10 @@ target
 dependency-reduced-pom.xml
 *.pdf
 *.Zone.Identifier
+### timesheet pipeline data (generated / monthly Jira exports) ###
+# input.xls -> ExcelParser -> work_log_summary.xlsx -> InvoiceGenerator -> Rechnung_*.pdf
+# The inputs and the intermediate summary are regenerated every month; only code is tracked.
+input.xls
+input*.xls
+input*.xlsx
+work_log_summary.xlsx
